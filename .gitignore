@@ -1,0 +1,9 @@
+# Vivado generated files
+*.log
+*.jou
+*.str
+*.cache/
+*.sim/
+*.hw/
+*.xpr
+xsim.dir/
