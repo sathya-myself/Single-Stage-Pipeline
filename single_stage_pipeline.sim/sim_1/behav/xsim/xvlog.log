@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/single_stage_pipeline/single_stage_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_stage_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/single_stage_pipeline/tb_single_stage_pipeline.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_single_stage_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/single_stage_pipeline/single_stage_pipeline/single_stage_pipeline.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

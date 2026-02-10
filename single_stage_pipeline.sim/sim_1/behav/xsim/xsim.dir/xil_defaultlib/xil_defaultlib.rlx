@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+E:/single_stage_pipeline/single_stage_pipeline.sv,1770730493,systemVerilog,,E:/single_stage_pipeline/tb_single_stage_pipeline.sv,,single_stage_pipeline,,uvm,,,,,,
+E:/single_stage_pipeline/single_stage_pipeline/single_stage_pipeline.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+E:/single_stage_pipeline/tb_single_stage_pipeline.sv,1770731147,systemVerilog,,,,tb_single_stage_pipeline,,uvm,,,,,,
