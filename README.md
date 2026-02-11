@@ -64,5 +64,29 @@ out_ready = 0 --> Backpressure handled correctly
 # Ready Signal Logic Validation:
 Waveform validates derived logic:
 in_ready = (~valid_reg) || out_ready
+# Design & Analysis Notes:
+#1 ![Design and Analysis Notes_page-0001](https://github.com/user-attachments/assets/0d76c5d8-2906-49e7-9ce4-9406dd89a15f)
+#2 ![Design and Analysis Notes_page-0002](https://github.com/user-attachments/assets/577c4088-6f5a-4d78-a94d-042b7488b3f5)
+#3 ![Design and Analysis Notes_page-0003](https://github.com/user-attachments/assets/1028bbfb-d6bc-4501-81bc-36beb9f1ca28)
+#4 ![Design and Analysis Notes_page-0004](https://github.com/user-attachments/assets/220ecd7f-c794-4258-83e9-d4e6457a668f)
+#5 ![Design and Analysis Notes_page-0005](https://github.com/user-attachments/assets/eb98616f-2dcf-4794-84a3-ba45e7909723)
+#6 ![Design and Analysis Notes_page-0006](https://github.com/user-attachments/assets/a988e352-e791-4e96-b1d0-8aa18581571e)
+#7 ![Design and Analysis Notes_page-0007](https://github.com/user-attachments/assets/2e16ad65-c388-4413-ac49-4cd384c8521f)
+#8 ![Design and Analysis Notes_page-0008](https://github.com/user-attachments/assets/2d50066b-7075-4b6e-954d-9b8d439302bf)
+#9![Design and Analysis Notes_page-0009](https://github.com/user-attachments/assets/4d140c4f-94bb-4ec0-90bc-5612e29efbe9)
+#10 ![10](https://github.com/user-attachments/assets/066d3422-beb6-493d-834c-a907aac4e967)
+#11 ![11](https://github.com/user-attachments/assets/258d6e13-8261-4056-a5fe-665866a0ea9a)
+#12 ![12](https://github.com/user-attachments/assets/5a1ff688-5b1c-4967-b9cb-17de3fa1d975)
+
+
+
+
+
+
+
+
+
+
+
 
 
