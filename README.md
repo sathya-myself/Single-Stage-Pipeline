@@ -1,29 +1,21 @@
 # Single Stage Pipeline – SystemVerilog
 
 A simple single-stage pipeline design implemented in SystemVerilog, verified using a ready/valid handshake protocol.
-## Features
-- Single-stage pipeline architecture
-- Ready/Valid handshake interface
-- Parameterized data width
-- SystemVerilog RTL design
-- Functional verification via simulation
-## Tool Flow
 
-Design & verification performed using:
+# Design Details
+Parameterized data width
+Pipeline register-based buffering
+Backpressure handling via out_ready
+Valid/Ready protocol
 
-- Xilinx Vivado (RTL elaboration & simulation)
-- XSIM Simulator
-- EDA Playground (waveform debugging)
+# Handshake Logic
+in_ready = (~valid_reg) || out_ready
+out_valid = valid_reg
+out_data  = data_reg
 
-Workflow:
-1. RTL design entry
-2. Testbench development
-3. Behavioral simulation
-4. Waveform analysis
-5. RTL schematic inspection
-## Verification
+# Verification
+Functional simulation performed using:
+Xilinx Vivado (RTL simulation)
+XSIM
+EDA Playground
 
-Waveform analysis confirms:
-- Correct reset behavior
-- Valid/Ready handshake operation
-- Data integrity across pipeline
