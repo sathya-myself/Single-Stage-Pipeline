@@ -1,39 +1,29 @@
-# Single-Stage-Pipeline
-Single-Stage Pipeline (Non-Pipelined Processor)  A Single-Stage Pipeline is a processor architecture in which each instruction completes all phases of execution within a single clock cycle. The instruction goes through fetch, decode, execute, memory access, and write-back sequentially, without any overlap with other instructions.
-Key Features
+# Single Stage Pipeline – SystemVerilog
 
-Executes one instruction per clock cycle
+A simple single-stage pipeline design implemented in SystemVerilog, verified using a ready/valid handshake protocol.
+## Features
+- Single-stage pipeline architecture
+- Ready/Valid handshake interface
+- Parameterized data width
+- SystemVerilog RTL design
+- Functional verification via simulation
+## Tool Flow
 
-No instruction overlap or parallelism
+Design & verification performed using:
 
-Clock cycle determined by the slowest operation
+- Xilinx Vivado (RTL elaboration & simulation)
+- XSIM Simulator
+- EDA Playground (waveform debugging)
 
-Simple datapath and control logic
+Workflow:
+1. RTL design entry
+2. Testbench development
+3. Behavioral simulation
+4. Waveform analysis
+5. RTL schematic inspection
+## Verification
 
-Working Principle
-
-Only one instruction is present in the processor at any given time. The next instruction begins execution only after the current instruction fully completes all stages.
-
-Advantages
-
-Simple design and easy to implement
-
-Useful for understanding basic processor operation
-
-Minimal control complexity
-
-Limitations
-
-Low throughput
-
-Inefficient use of hardware resources
-
-Not suitable for high-performance systems
-
-Use Cases
-
-Educational processor designs
-
-Introductory CPU architecture projects
-
-Baseline reference for pipelined processor comparison
+Waveform analysis confirms:
+- Correct reset behavior
+- Valid/Ready handshake operation
+- Data integrity across pipeline
