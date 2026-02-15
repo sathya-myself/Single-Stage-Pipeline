@@ -38,7 +38,8 @@ EDA Playground
 ![Schemetic View](https://github.com/user-attachments/assets/c0650f64-1495-4b20-b623-e504a0f7ebec)
 Tool : Vivado 
 # Waveform 
-![Waveform](https://github.com/user-attachments/assets/928c5c0a-0989-4c69-a42c-7434fef1e364)
+<img width="1920" height="1080" alt="waveform_Vivado" src="https://github.com/user-attachments/assets/8bd462c3-bf69-45c5-b981-dc81f47f98d7" />
+
 # Reset Behavior:
 Observation:
 When rst_n = 0
